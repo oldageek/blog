@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && !empty($_GET['busqueda'])) {
     ));
     $resultados = $statement -> fetchAll();
 
-    if (empty($resultado)) {
+    if (empty($resultados)) {
         $titulo = 'No se encontraron articulos con el resultado: ' . $busqueda;
     } else {
         $titulo = 'Resultado de la busqueda: ' . $busqueda;

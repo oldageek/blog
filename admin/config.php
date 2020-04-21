@@ -1,6 +1,6 @@
 <?php
 
-define('RUTA', 'http://localhost:8080/curso_php/Practicas/blog/');
+define('RUTA', 'http://localhost:8080/curso_php/Practicas/blog');
 
 $bd_config = array (
     'basedatos' => 'blog_practica',
@@ -14,6 +14,6 @@ $blog_config = array(
 );
 
 $blog_admin = array(
-    'usuario' => 'Carlos',
-    'password' => '123'
+    'usuario' => 'Oldahir',
+    'password' => '123456'
 );
